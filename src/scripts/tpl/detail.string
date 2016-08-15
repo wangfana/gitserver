@@ -1,0 +1,24 @@
+<div class="details">
+	<header>
+		<ul>
+			<li class="yo-ico" action-type="go.index">&#xe650;</li>
+			<li ms-text="title"></li>
+			<li class="yo-ico">&#xe659;</li>
+		</ul>
+	</header>
+	<section ms-visible="!showload">
+	   <p>
+            <img ms-src="img">
+	   </p>
+		
+		<div class="sect">
+			{{description}}
+	    </div>
+	</section>
+	<div ms-visible="showload" class="yo-loading yo-loading-b"> 
+	     <div class="inner">
+	          <i class="yo-ico"></i>
+	          <span>加载中...</span>
+	     </div>
+    </div>
+</div>
